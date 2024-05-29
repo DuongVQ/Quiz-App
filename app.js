@@ -57,7 +57,7 @@ let score = 0;
 function startQuiz() {
     currentQuesIndex = 0;
     score = 0;
-    // nextBtn.innerHTML = `Next`;
+    nextBtn.innerHTML = `Next <i class="fa-solid fa-chevron-right"></i>`;
     showQuestion();
 }
 
@@ -80,7 +80,7 @@ function showQuestion() {
 }
 
 function resetState() {
-    nextBtn.style.display = "none";
+    nextBtn.style.display = "block";
     while(answerBtn.firstChild) {
         answerBtn.removeChild(answerBtn.firstChild);
     }

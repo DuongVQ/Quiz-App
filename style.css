@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace, sans-serif;
+    text-shadow: 2px 2px 2px #a8bce476;
 }
 
 body {
